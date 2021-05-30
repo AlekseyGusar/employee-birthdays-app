@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { Route, Switch, withRouter } from 'react-router-dom'
+import Employees from './components/Employees'
+import Birthdays from './components/Birthdays'
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="App">
+        <div>
+          <h3 className="app-header">Employees</h3>
+          <Switch>
+            <Route path="/employees" component={Employees}></Route>
+          </Switch>
+        </div>
+        <div>
+          <hr className="horizontal-line"></hr>
+        </div>
+        <Birthdays></Birthdays>
+      </div>
+      <hr className="vertical-line"></hr>
     </div>
-  );
+  )
 }
 
-export default App;
+export default withRouter(App)
