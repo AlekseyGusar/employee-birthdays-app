@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/employee-birthdays-app/employees/static/css/main.d485107a.chunk.css",
-    "main.js": "/employee-birthdays-app/employees/static/js/main.13e0a07f.chunk.js",
-    "main.js.map": "/employee-birthdays-app/employees/static/js/main.13e0a07f.chunk.js.map",
+    "main.js": "/employee-birthdays-app/employees/static/js/main.915060f3.chunk.js",
+    "main.js.map": "/employee-birthdays-app/employees/static/js/main.915060f3.chunk.js.map",
     "runtime-main.js": "/employee-birthdays-app/employees/static/js/runtime-main.727e7364.js",
     "runtime-main.js.map": "/employee-birthdays-app/employees/static/js/runtime-main.727e7364.js.map",
     "static/js/2.4218e181.chunk.js": "/employee-birthdays-app/employees/static/js/2.4218e181.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.727e7364.js",
     "static/js/2.4218e181.chunk.js",
     "static/css/main.d485107a.chunk.css",
-    "static/js/main.13e0a07f.chunk.js"
+    "static/js/main.915060f3.chunk.js"
   ]
 }
