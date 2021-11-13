@@ -68,3 +68,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Task description
+
+Tech Stack: React + Axios/Fetch
+Задача:
+GET: `https://yalantis-react-school-api.yalantis.com/api/task0/users` повертає масив юзерів. У кожного юзера є наступні поля: id, firstName, lastName, dob (дата народження).
+
+Реалізувати:
+
+1. Завантажити список співробітників з сервера, при потраплянні на сторінку employees
+2. Відобразити англійський алфавіт.
+3. Співробітник = lastName + firstName. Відобразити співробітників, за алфавітом, сортуємо за lastName. Якщо у літери немає співробітників, ставимо прочерк. Біля кожного співробітника є по 2 radioButton. По дефолту ‘not active’ (не активний), значення цього radio item буде = false
+4. Якщо хочемо вибирати співробітника, натискаємо на ‘active’, зі значенням = true. Обраний співробітник повинен бути виділений кольором.
+5. У правій частині сторінки є блок Employees birthday, в якому відображаються обрані співробітники, згруповані за назвою місяця їх дня народження та відсортовані по їх lastName (від А до Я).
+6. Місяці повинні починатися з місяця виконання цього завдання і далі по черзі.
+7. Якщо в місяці немає обраних співробітників/співробітника, назву місяця не виводимо.
+8. Якщо ви не обрали нікого зі співробітників, то в блоці Employees birthday пишемо Employees List is empty
+9. Якщо сторінку перезавантажено - обрані співробітники в правому блоку повинні бути збережені. А в лівому блоку Employees, у даних співробітників повинен бути активним radio item ‘active’
